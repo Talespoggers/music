@@ -1,0 +1,59 @@
+.fundo{
+    background: linear-gradient(#7131ad , #ee3e61 );
+    height: 100vh;
+    margin:  0;
+}
+
+.conteiner1{
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-top: -10px;
+    border: solid1px transparent;
+    box-shadow: 1px 3px 0px 1px rgba(0, 0, 0, 0.377);
+}
+
+.li{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.li:hover{
+    
+    color: rgb(4, 0, 255);
+    font-weight: bold;
+}
+
+.conteiner{
+
+    font-family: 'Poppins', sans-serif;
+    margin-left: 60%;
+    margin-right: 300px;
+    margin-bottom: 20%;
+    display: grid;
+    grid-template-columns: 50% 0%;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    background: linear-gradient(45deg, #4158D8, #e568dc, #ffb374, #ef5f5f, #d848b6);
+    background-size: 200% 200%; 
+    animation: lg 4s ease-out infinite;
+    padding: 15px; 
+}
+
+@keyframes lg {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
